@@ -26,7 +26,7 @@ To integrate YandexMapsMobile into your project using SwiftPM add the following 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/c-villain/YandexMapsMobile", from: "4.0.0"),
+    .package(url: "https://github.com/c-villain/YandexMapsMobile", from: "4.0.1"),
 ],
 ```
 

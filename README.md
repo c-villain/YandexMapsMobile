@@ -15,6 +15,8 @@ Release with v 4.0.1 binary framework with Yandex mobile maps is taken from [her
 
 👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
 
+If you like this repository, please do :star: to make this useful for others.
+
 ## Requirements
 
 - iOS 11.0

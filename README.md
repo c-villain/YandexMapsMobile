@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/badge/platform-IOS-blue" />
     <img src="https://img.shields.io/badge/iOS-11-blue" />
      <img src="https://img.shields.io/badge/license-MIT-blue" />
+     <img src="https://img.shields.io/badge/Xcode 13.4-OK-green" /> 
 </p>
 
 Binary Framework as Swift Package with 4.0.0 Yandex mobile maps
@@ -36,7 +37,7 @@ dependencies: [
 
 ❗️ Recommended to Open Xcode using Rosetta 
 
-<img src="https://img.shields.io/badge/release-4.0.1-blue" /> <img src="https://img.shields.io/badge/Xcode%2013.3-Rosetta-blue" /> <img src="https://img.shields.io/badge/Simulators-OK-green" /> <img src="https://img.shields.io/badge/Device-OK-green" /> 
+<img src="https://img.shields.io/badge/release-4.0.1-blue" /> <img src="https://img.shields.io/badge/Xcode%2013.3/13.4-Rosetta-blue" /> <img src="https://img.shields.io/badge/Simulators-OK-green" /> <img src="https://img.shields.io/badge/Device-OK-green" /> 
 
 <img src="https://img.shields.io/badge/release-4.0.1-blue" />  works on Xcode > 13.3 can build both on device and simulators but on simulator crashed with error (without Rosetta mode):
 ```

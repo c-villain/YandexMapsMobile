@@ -14,7 +14,7 @@ Release with v 4.0.0 binary framework with Yandex mobile maps is taken from [her
 
 Release with v 4.0.1 binary framework with Yandex mobile maps is taken from [here](https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-2020082814.7344935-775744421.framework.zip) and patched using huge knowledges of [Igor Makarov](https://github.com/igor-makarov).
 
-Release with v 4.1.0 binary framework with Yandex mobile maps is taken from [here](https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.1.0-full.framework.zip)
+Release with v 4.1.0 binary framework with Yandex mobile maps is taken from [here](https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.1.0-full.framework.zip).
 
 👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
 

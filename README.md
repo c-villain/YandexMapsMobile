@@ -8,17 +8,9 @@
      <img src="https://img.shields.io/badge/Xcode 13.4-OK-green" /> 
 </p>
 
-Binary Framework as Swift Package with 4.1.0 Yandex mobile maps
+Binary Framework as Swift Package with 4.1.0 Yandex mobile maps.
 
-Release with v 4.0.0 binary framework with Yandex mobile maps is taken from [here](https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-2020082814.7344935-775744421.framework.zip) and wrapped to SwiftPM using [this](https://habr.com/ru/company/e-legion/blog/549390/) article.
-
-Release with v 4.0.1 binary framework with Yandex mobile maps is taken from [here](https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-2020082814.7344935-775744421.framework.zip) and patched using huge knowledges of [Igor Makarov](https://github.com/igor-makarov).
-
-Release with v 4.1.0 binary framework with Yandex mobile maps is taken from [here](https://maps-ios-pods-public.s3.yandex.net/YandexMapsMobile-4.1.0-full.framework.zip).
-
-👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
-
-If you like this repository, please do :star: to make this useful for others.
+🎉 Works on Apple silicone without Rosetta mode (you can find manual [here](https://github.com/c-villain/YandexMapsMobile/releases)).
 
 ## Requirements
 
@@ -35,21 +27,12 @@ dependencies: [
 ],
 ```
 
-## Known issues
-
-❗️ Recommended to Open Xcode using Rosetta 
-
-<img src="https://img.shields.io/badge/release-4.0.1-blue" /> <img src="https://img.shields.io/badge/Xcode%2013.3/13.4-Rosetta-blue" /> <img src="https://img.shields.io/badge/Simulators-OK-green" /> <img src="https://img.shields.io/badge/Device-OK-green" /> 
-
-<img src="https://img.shields.io/badge/release-4.0.1-blue" />  works on Xcode > 13.3 can build both on device and simulators but on simulator crashed with error (without Rosetta mode):
-```
-'cyclone' is not a recognized processor for this target (ignoring processor)
-```
-
-<img src="https://img.shields.io/badge/release-4.0.0-blue" /> <img src="https://img.shields.io/badge/Xcode%2013.2.1-Rosetta-blue" /> <img src="https://img.shields.io/badge/Simulators-OK-green" /> <img src="https://img.shields.io/badge/Device-fails-red" /> 
-
 ## Special thanks
 
 to [Igor Makarov](https://github.com/igor-makarov) for his contributing!
 
+## Communication
 
+👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
+
+If you like this repository, please do :star: to make this useful for others.

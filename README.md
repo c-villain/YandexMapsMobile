@@ -3,7 +3,7 @@
 <p align="center">
      <img src="https://img.shields.io/badge/release-4.1.0-blue" />
     <img src="https://img.shields.io/badge/platform-IOS-blue" />
-    <img src="https://img.shields.io/badge/iOS-11-blue" />
+    <img src="https://img.shields.io/badge/iOS-12-blue" />
      <img src="https://img.shields.io/badge/license-MIT-blue" />
      <img src="https://img.shields.io/badge/Xcode 13.4-OK-green" /> 
 </p>
@@ -14,7 +14,7 @@ Binary Framework as Swift Package with 4.1.0 Yandex mobile maps.
 
 ## Requirements
 
-- iOS 11.0
+- iOS 12.0
 
 
 ## Swift Package Manager

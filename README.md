@@ -7,7 +7,7 @@
      <img src="https://img.shields.io/badge/license-MIT-blue" />
 </p>
 
-Binary Framework as Swift Package with Yandex mobile maps.
+Binary Framework as Swift Package with Yandex mobile maps (full version).
 
 Yandex mobile maps lite version you can find [here](https://github.com/c-villain/YandexMapsMobileLite).
 

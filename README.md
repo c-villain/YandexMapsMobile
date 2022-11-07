@@ -28,7 +28,7 @@ dependencies: [
 
 ## Special thanks
 
-to [Igor Makarov](https://github.com/igor-makarov) for his contributing!
+to [Igor Makarov](https://github.com/igor-makarov) for his contributing in the release [v.4.0.1](https://github.com/c-villain/YandexMapsMobile/releases/tag/4.0.1)
 
 ## Communication
 

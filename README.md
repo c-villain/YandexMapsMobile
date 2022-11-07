@@ -9,6 +9,8 @@
 
 Binary Framework as Swift Package with Yandex mobile maps.
 
+Yandex mobile maps lite version you can find [here](https://github.com/c-villain/YandexMapsMobileLite).
+
 🎉 Works on Apple silicone without Rosetta mode (you can find manual [here](https://github.com/c-villain/YandexMapsMobile/releases)).
 
 ## Requirements

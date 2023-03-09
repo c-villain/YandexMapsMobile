@@ -52,6 +52,63 @@ targets:
        - package: YandexMapsMobile
 ```
 
+## Recommedations to use
+
+<details>
+  <summary>Using on Apple silicon without Rosetta mode</summary>
+  
+1. You should init `YMKMapView` with `vulkanPreferred: true`
+```swift
+YMKMapView.init(frame: .zero, vulkanPreferred: isM1Simulator())
+
+....
+
+    #if targetEnvironment(simulator)
+    public static func isM1Simulator() -> Bool {
+        return TARGET_CPU_ARM64 != 0
+    }
+    #else
+    public static func isM1Simulator() -> Bool { false }
+    #endif
+
+```
+
+2. Call `YMKMapKit.sharedInstance()` in `AppDelegate` as in [example](https://github.com/yandex/mapkit-ios-demo/blob/master/MapKitDemo/AppDelegate.swift)
+
+```swift
+/**
+If you create instance of YMKMapKit not in application:didFinishLaunchingWithOptions: 
+you should also explicitly call YMKMapKit.sharedInstance().onStart()
+*/
+YMKMapKit.sharedInstance()
+```
+
+</details>
+
+<details>
+  <summary>YandexMapsMobile as subpackage</summary>
+
+If you use `YandexMapsMobile` as subdependency in your own package you should probably add `linkerSettings` to the target for successful building:
+
+```swift
+targets: [
+    .target(
+        name: "Your target",
+        dependencies: [
+            .product(name: "YandexMapsMobile", package: "YandexMapsMobile")
+        ],
+        linkerSettings: [ // <===== ‼️LOOK HERE‼️
+            .linkedFramework("CoreLocation"),
+            .linkedFramework("CoreTelephony"),
+            .linkedFramework("SystemConfiguration"),
+            .linkedLibrary("c++"),
+            .unsafeFlags(["-ObjC"]),
+        ]),
+]
+```
+
+</details>
+
 ## Special thanks
 
 to [Igor Makarov](https://github.com/igor-makarov) for his contributing in the release [v.4.0.1](https://github.com/c-villain/YandexMapsMobile/releases/tag/4.0.1)

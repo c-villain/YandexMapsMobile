@@ -104,7 +104,7 @@ frameworks:
     "QuartzCore",
     "Security",
     "CoreTelephony",
-"CoreMotion"
+    "CoreMotion"
 libraries:
     "resolv",
     "c++"

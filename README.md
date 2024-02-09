@@ -88,6 +88,35 @@ YMKMapKit.sharedInstance()
 </details>
 
 <details>
+  <summary>Latest recommendations for project settings</summary>
+  
+to build project you should add following *linker flags* in the *Build Settings* tab:
+
+```yaml
+frameworks:
+    "CoreFoundation",
+    "Foundation",
+    "CoreLocation",
+    "UIKit",
+    "OpenGLES",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "QuartzCore",
+    "Security",
+    "CoreTelephony",
+"CoreMotion"
+libraries:
+    "resolv",
+    "c++"
+```
+
+as in the screenshot:
+
+<img width="600" alt="Screenshot 2024-02-09 at 23 33 46" src="https://github.com/c-villain/YandexMapsMobile/assets/6235615/5eb59561-9ddb-45d0-84b3-5051fefce4d3">
+  
+</details>
+
+<details>
   <summary>YandexMapsMobile as subpackage</summary>
 
 If you use `YandexMapsMobile` as subdependency in your own package you should probably add `linkerSettings` to the target for successful building:

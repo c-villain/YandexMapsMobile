@@ -139,15 +139,15 @@ targets: [
 ]
 ```
 
-or add in the projects settings -ObjC:
+or add in the projects settings -ObjC and framework "DeviceCheck":
 
-<img width="443" alt="Screenshot 2023-12-01 at 18 18 24" src="https://github.com/c-villain/YandexMapsMobile/assets/6235615/3a65fda6-6bd1-4927-a6f6-fece0148af01">
+<img width="705" alt="Screenshot 2024-08-14 at 12 50 31" src="https://github.com/user-attachments/assets/abd65454-0cf2-444c-b97e-943de410db62">
 
 or via [XcodeGen](https://github.com/yonaskolb/XcodeGen) [insert](https://github.com/yonaskolb/XcodeGen/issues/639) into your `project.yml`:
 
 ```yaml
 settings:
-  OTHER_LDFLAGS: -ObjC
+  OTHER_LDFLAGS: -ObjC -framework "DeviceCheck"
 ```
 For more details look [here](https://github.com/c-villain/YandexMapsMobile/issues/5).
 

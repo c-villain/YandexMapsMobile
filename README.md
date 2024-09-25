@@ -41,7 +41,7 @@ or via [XcodeGen](https://github.com/yonaskolb/XcodeGen) insert into your `proje
 name: YourProjectName
 options:
   deploymentTarget:
-    iOS: 12.0
+    iOS: 13.0
 packages:
   YandexMapsMobile:
     url: https://github.com/c-villain/YandexMapsMobile

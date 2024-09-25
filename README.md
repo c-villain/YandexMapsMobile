@@ -18,7 +18,7 @@ Yandex mobile maps lite version you can find [here](https://github.com/c-villain
 
 ## Requirements
 
-- iOS 12.0
+- iOS 13.0
 
 ## Swift Package Manager
 
